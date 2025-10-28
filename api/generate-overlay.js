@@ -55,4 +55,3 @@ export default async function handler(req, res) {
     return res.status(500).json({ status_code: 500, error_message: String(err) });
   }
 }
-
